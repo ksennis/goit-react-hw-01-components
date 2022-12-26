@@ -1,0 +1,28 @@
+.transactionHistory {
+    font-size: 18px;
+    width: 600px;
+    /* border-radius: 10px; */
+    box-shadow: 2px 3px 2px 0px rgb(171, 171, 171);
+}
+
+.trHead {
+    background-color: aqua;
+    padding: 10px 0;
+} 
+
+.trHead th, .trBody td {
+    padding: 10px 0;
+    text-align: center;
+    color: gray;
+}
+
+.trBody:nth-child(odd) {
+    background: rgb(255, 255, 255);
+}
+
+.trBody:nth-child(even) {
+    background: rgb(240, 240, 240);
+}
+
+
+
